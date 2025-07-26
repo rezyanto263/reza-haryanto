@@ -1,0 +1,92 @@
+export const techStack = [
+  {
+    name: "HTML",
+    icon: 'SiHtml5',
+    color: "text-orange-500",
+    learning: false,
+  },
+  {
+    name: "CSS",
+    icon: 'SiCss3',
+    color: "text-blue-500",
+    learning: false,
+  },
+  {
+    name: "JavaScript",
+    icon: 'SiJavascript',
+    color: "text-yellow-500",
+    learning: false,
+  },
+  {
+    name: "PHP",
+    icon: 'SiPhp',
+    color: "text-purple-900",
+    learning: false,
+  },
+  {
+    name: "MySQL",
+    icon: 'SiMysql',
+    color: "text-blue-700",
+    learning: false,
+  },
+  {
+    name: "MongoDB",
+    icon: 'SiMongodb',
+    color: "text-green-500",
+    learning: true,
+  },
+  {
+    name: "Bootstrap",
+    icon: 'SiBootstrap',
+    color: "text-purple-700",
+    learning: false,
+  },
+  {
+    name: "Tailwind",
+    icon: 'SiTailwindcss',
+    color: "text-sky-400",
+    learning: false,
+  },
+  {
+    name: "CodeIgniter",
+    icon: 'SiCodeigniter',
+    color: "text-orange-500",
+    learning: false,
+  },
+  {
+    name: "Laravel",
+    icon: 'SiLaravel',
+    color: "text-red-500",
+    learning: false,
+  },
+  {
+    name: "Node JS",
+    icon: 'SiNodedotjs',
+    color: "text-green-400",
+    learning: true,
+  },
+  {
+    name: "React JS",
+    icon: 'SiReact',
+    color: "text-sky-400",
+    learning: true,
+  },
+  {
+    name: "Express JS",
+    icon: 'SiExpress',
+    color: "dark:text-white text-gray-800",
+    learning: true,
+  },
+  {
+    name: "Hapi JS",
+    icon: 'SvgHapi',
+    color: "",
+    learning: true,
+  },
+  {
+    name: "Google Cloud",
+    icon: 'SvgGoogleCloud',
+    color: "",
+    learning: true,
+  },
+];

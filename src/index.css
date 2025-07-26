@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  html,
+  body {
+    @apply bg-neutral-100 dark:bg-black;
+  }
+
+  * {
+    scrollbar-color: var(--color-primary) #00000000;
+  }
+}
+
+@layer utilities {
+  .animate-slow-spin {
+    @apply animate-spin;
+    animation-duration: 20s;
+  }
+}
+
+@theme {
+  --color-primary: #ca435e;
+  --color-secondary: #ba6930;
+}
