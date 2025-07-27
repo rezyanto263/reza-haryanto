@@ -23,15 +23,15 @@ export default function ProjectCard({
           isFocused
             ? "visible opacity-100 backdrop-blur-md backdrop-saturate-100"
             : "invisible opacity-0"
-        } flex size-full flex-col items-center justify-center gap-3 bg-white/70 p-4 transition-all duration-500 md:gap-5 dark:bg-black/70`}
+        } flex size-full flex-col items-center justify-center gap-2 bg-white/70 p-4 transition-all duration-500 md:gap-5 dark:bg-black/70`}
       >
-        <h2 className="text-primary text-xl font-bold md:text-2xl text-center">{name}</h2>
-        <p className="text-center text-neutral-700 max-sm:text-sm dark:text-neutral-400 max-sm:line-clamp-3">
+        <h2 className="text-primary text-lg sm:text-xl font-bold md:text-2xl text-center">{name}</h2>
+        <p className="text-center text-neutral-700 max-sm:text-xs dark:text-neutral-400 max-sm:line-clamp-3">
           {description}
         </p>
-        <div className="flex flex-wrap max-sm:gap-1 gap-3">
+        <div className="flex flex-wrap justify-center items-center max-sm:gap-1 gap-3">
           {tech.map((t, key) => (
-            <span key={key} className="bg-secondary inline-block rounded px-3 py-1 text-sm text-white max-sm:text-xs">
+            <span key={key} className="bg-secondary inline-block rounded max-sm:px-2 max-sm:py-0.5 px-3 py-1 md:text-sm text-white max-sm:text-xs">
               {t}
             </span>
           ))}
