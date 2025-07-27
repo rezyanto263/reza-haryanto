@@ -5,7 +5,6 @@ import NavbarLink from "./NavbarLink";
 import { navbar, waMeLink } from "@/data/navbar";
 // eslint-disable-next-line no-unused-vars
 import { AnimatePresence, motion } from "framer-motion";
-import GlareHover from "../GlareHover";
 import SpecialButton from "../Button/SpecialButton";
 
 export default function Navbar() {
@@ -46,7 +45,7 @@ export default function Navbar() {
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.7 }}
-        className={`fixed top-0 z-1 w-full bg-neutral-100/50 backdrop-blur dark:bg-black/50 ${isScrolled && "shadow"}`}
+        className={`fixed top-0 z-1 w-full bg-neutral-100/50 backdrop-blur dark:bg-black/50 ${isScrolled && "shadow backdrop-saturate-100"}`}
       >
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           {/* Navbar Logo */}

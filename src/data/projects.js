@@ -1,9 +1,9 @@
-import plushImage from '@/assets/plush-web.png'
-import kiapImage from '@/assets/kiap-web.png'
-import bmImage from '@/assets/bm-web.png'
-import bmmcImage from '@/assets/bmmc-web.png'
-import lokaJamuImage from '@/assets/lokajamu-api.jpg'
-import siskapiImage from '@/assets/siskapi-web.png'
+import plushImage from '@/assets/projects/plush-web.png'
+import kiapImage from '@/assets/projects/kiap-web.png'
+import bmImage from '@/assets/projects/bm-web.png'
+import bmmcImage from '@/assets/projects/bmmc-web.png'
+import lokaJamuImage from '@/assets/projects/lokajamu-api.jpg'
+import siskapiImage from '@/assets/projects/siskapi-web.png'
 
 export const projects = [
   {

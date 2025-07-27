@@ -7,6 +7,7 @@ import AboutSection from "@/sections/AboutSection";
 import SkillsSection from "@/sections/SkillsSection";
 import ProjectsSection from "./sections/ProjectsSection";
 import CertificatesSection from "./sections/CertificatesSection";
+import Footer from "@/components/Footer/Footer";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
         <ProjectsSection />
         <CertificatesSection />
       </main>
+      <Footer />
     </div>
   );
 }
