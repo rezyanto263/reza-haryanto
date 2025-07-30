@@ -69,9 +69,9 @@ export default function Navbar() {
           <div className="flex items-center gap-5">
             <button
               onClick={toggleTheme}
-              className="flex h-7 w-14 cursor-pointer items-center rounded-full bg-gray-200 px-1 inset-shadow-xs/50 transition-colors duration-300 dark:bg-gray-500"
+              className="flex h-7 w-14 cursor-pointer items-center rounded-full bg-gray-200 px-1 inset-shadow-xs/50 dark:bg-gray-500"
             >
-              <div className="text-primary rounded-full bg-white p-1 shadow-xs/50 transition-all duration-300 dark:translate-x-6.5 dark:bg-neutral-800">
+              <div className="text-primary rounded-full bg-white p-1 shadow-xs/50 transition-transform duration-300 dark:translate-x-6.5 dark:bg-neutral-800">
                 {isDarkMode ? <LuMoon size={14} /> : <LuSun size={14} />}
               </div>
             </button>
