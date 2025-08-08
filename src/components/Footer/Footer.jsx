@@ -20,10 +20,10 @@ export default function Footer() {
           Open heart. Open mind. Open to opportunities.
         </p>
         <ul className="mt-5 flex items-center justify-center gap-5">
-          {socialMedias.map((social) => {
+          {socialMedias.map((social, key) => {
             const Icon = iconList[social.icon];
             return (
-              <li className="group">
+              <li key={key} className="group">
                 <a
                   href={social.link}
                   target="__blank"

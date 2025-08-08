@@ -36,6 +36,12 @@ export const techStack = [
     learning: true,
   },
   {
+    name: "PostgreSQL",
+    icon: 'SvgPostgresql',
+    color: "",
+    learning: true,
+  },
+  {
     name: "Bootstrap",
     icon: 'SiBootstrap',
     color: "text-purple-700",
@@ -87,6 +93,12 @@ export const techStack = [
     name: "Google Cloud",
     icon: 'SvgGoogleCloud',
     color: "",
+    learning: true,
+  },
+  {
+    name: "Docker",
+    icon: 'SiDocker',
+    color: "text-sky-600",
     learning: true,
   },
 ];

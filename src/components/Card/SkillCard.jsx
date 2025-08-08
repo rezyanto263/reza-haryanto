@@ -12,12 +12,13 @@ import {
   SiReact,
   SiTailwindcss,
   SiNodedotjs,
-  SiGooglecloud,
+  SiDocker
 } from "react-icons/si";
 import SpotlightCard from "../SpotlightCard";
 
 import SvgHapi from "@/assets/hapijs.svg";
 import SvgGoogleCloud from "@/assets/gcloud.svg";
+import SvgPostgresql from "@/assets/postgresql.svg";
 
 const listIcon = {
   SiCss3,
@@ -35,6 +36,8 @@ const listIcon = {
   SiTailwindcss,
   SvgHapi,
   SvgGoogleCloud,
+  SvgPostgresql,
+  SiDocker
 };
 
 export default function SkillCard({ name, icon, color, learning = false }) {
@@ -47,14 +50,14 @@ export default function SkillCard({ name, icon, color, learning = false }) {
       {typeof Icon === "string" ? (
         <img
           src={Icon}
-          className="mb-5 size-12 sm:size-15 lg:size-18"
+          className="mb-2 sm:mb-5 size-9 sm:size-15 lg:size-18"
         />
       ) : (
-        <Icon className={`${color} mb-5 size-12 sm:size-15 lg:size-18`} />
+        <Icon className={`${color} mb-2 sm:mb-5 size-9 sm:size-15 lg:size-18`} />
       )}
-      <span className="block text-center font-medium">{name}</span>
+      <span className="block text-sm sm:text-base text-center font-medium">{name}</span>
       {learning && (
-        <span className="bg-secondary mt-3 block rounded px-2 py-0.5 text-white">
+        <span className="bg-secondary text-xs sm:text-base mt-2 sm:mt-3 block rounded px-2 py-0.5 text-white">
           Learning
         </span>
       )}

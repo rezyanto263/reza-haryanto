@@ -24,7 +24,7 @@ export default function SkillsSection() {
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="grid grid-cols-2 gap-5 md:grid-cols-4 lg:grid-cols-6"
+          className="grid grid-cols-3 gap-2 sm:gap-3 md:gap-5 md:grid-cols-4 lg:grid-cols-6"
         >
           {techStack.map((tech, key) => (
             <SkillCard key={key} {...tech} />
