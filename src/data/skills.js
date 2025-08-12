@@ -99,6 +99,6 @@ export const techStack = [
     name: "Docker",
     icon: 'SiDocker',
     color: "text-sky-600",
-    learning: true,
+    learning: false,
   },
 ];

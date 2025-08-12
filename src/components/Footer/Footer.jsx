@@ -23,7 +23,7 @@ export default function Footer() {
           {socialMedias.map((social, key) => {
             const Icon = iconList[social.icon];
             return (
-              <li key={key} className="group">
+              <li key={key} className="group">  
                 <a
                   href={social.link}
                   target="__blank"
