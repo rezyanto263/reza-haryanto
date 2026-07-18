@@ -4,6 +4,7 @@ import bmImage from '@/assets/projects/bm-web.png'
 import bmmcImage from '@/assets/projects/bmmc-web.png'
 import lokaJamuImage from '@/assets/projects/lokajamu-api.jpg'
 import siskapiImage from '@/assets/projects/siskapi-web.png'
+import scpImage from '@/assets/projects/scp-web.png'
 
 export const projects = [
   {
@@ -53,5 +54,13 @@ export const projects = [
     tech: ['Laravel', 'Tailwind','Javascript', 'MySQL'],
     preview: '',
     repository: 'https://github.com/Ina-Ari/SISKAPI'
+  },
+  {
+    name: 'Surya Cipta Pratama (MEP)',
+    description: "Designed and developed a responsive company profile website that highlights the company's services, portfolio, and contact information with a professional user experience.",
+    image: scpImage,
+    tech: ['React', 'TypeScript', 'Tailwind'],
+    preview: 'https://www.suryaciptapratamamep.com',
+    repository: ''
   },
 ]
