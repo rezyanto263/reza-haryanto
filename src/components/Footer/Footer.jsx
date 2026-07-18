@@ -40,7 +40,7 @@ export default function Footer() {
         </ul>
         <div className="mt-10">
           <p className="text-neutral-900 dark:text-white text-center">
-            © 2025 Muhammad Reza Haryanto. All rights reserved.
+            © {new Date().getFullYear()} Muhammad Reza Haryanto. All rights reserved.
           </p>
         </div>
       </div>
