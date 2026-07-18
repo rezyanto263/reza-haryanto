@@ -12,7 +12,9 @@ import {
   SiReact,
   SiTailwindcss,
   SiNodedotjs,
-  SiDocker
+  SiNextdotjs,
+  SiDocker,
+  SiTypescript
 } from "react-icons/si";
 import SpotlightCard from "../SpotlightCard";
 
@@ -24,6 +26,7 @@ const listIcon = {
   SiCss3,
   SiHtml5,
   SiJavascript,
+  SiTypescript,
   SiCodeigniter,
   SiLaravel,
   SiMongodb,
@@ -35,6 +38,7 @@ const listIcon = {
   SiBootstrap,
   SiTailwindcss,
   SvgHapi,
+  SiNextdotjs,
   SvgGoogleCloud,
   SvgPostgresql,
   SiDocker

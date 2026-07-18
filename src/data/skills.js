@@ -18,6 +18,12 @@ export const techStack = [
     learning: false,
   },
   {
+    name: "TypeScript",
+    icon: 'SiTypescript',
+    color: "text-blue-500",
+    learning: false,
+  },
+  {
     name: "PHP",
     icon: 'SiPhp',
     color: "text-purple-900",
@@ -39,7 +45,7 @@ export const techStack = [
     name: "PostgreSQL",
     icon: 'SvgPostgresql',
     color: "",
-    learning: true,
+    learning: false,
   },
   {
     name: "Bootstrap",
@@ -69,24 +75,30 @@ export const techStack = [
     name: "Node JS",
     icon: 'SiNodedotjs',
     color: "text-green-400",
-    learning: true,
+    learning: false,
   },
   {
-    name: "React JS",
+    name: "React",
     icon: 'SiReact',
     color: "text-sky-400",
-    learning: true,
+    learning: false,
   },
   {
-    name: "Express JS",
+    name: "Express",
     icon: 'SiExpress',
     color: "dark:text-white text-gray-800",
-    learning: true,
+    learning: false,
   },
   {
     name: "Hapi JS",
     icon: 'SvgHapi',
     color: "",
+    learning: true,
+  },
+  {
+    name: "Next",
+    icon: 'SiNextdotjs',
+    color: "dark:text-white text-black",
     learning: true,
   },
   {
